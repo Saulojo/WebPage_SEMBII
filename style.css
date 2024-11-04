@@ -42,7 +42,8 @@ button{
 .card{
     display: flex;
     flex-direction: row;
-    width: 700px; /* Definindo um tamanho específico */
+    gap: 20px;
+    width: 1000px; /* Definindo um tamanho específico */
     height: 390px; /* Definindo um tamanho específico */
 }
 .single_card{
