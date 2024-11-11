@@ -138,8 +138,8 @@ function add_data(time,x,y,z,data,charta,name){
             title: name,
             subtitle: 'Em X, Y e Z'
         },
-        width: 500,
-        height: 390
+        width: '50%',
+        height: '40%'
     }));
 }
 

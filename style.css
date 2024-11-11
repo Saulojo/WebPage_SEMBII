@@ -19,6 +19,7 @@
     justify-content: right;
     align-items: center;
     gap:20px;
+    font-size: 2.0vw;
 
 }
 
@@ -43,8 +44,8 @@ button{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 1000px; /* Definindo um tamanho específico */
-    height: 390px; /* Definindo um tamanho específico */
+    width: 50%; /* Definindo um tamanho específico */
+
 }
 .single_card{
     background-color: white;
@@ -62,4 +63,10 @@ button{
 }
 .fabricant_values{
     margin-left: 15px;
+}
+
+@media(max-width: 1089px){
+    .card{
+        flex-direction: column;
+    }
 }
